@@ -58,7 +58,7 @@ a:active {
     .info {
         display: block;
         text-align: center;
-        margin-left: 40px;
+        margin-left: -40px;
     }
 }
 

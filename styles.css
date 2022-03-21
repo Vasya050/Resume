@@ -60,6 +60,9 @@ a:active {
         text-align: center;
         margin-left: -40px;
     }
+    .avatar {
+        margin-left: 40px;
+    }
 }
 
 .card {

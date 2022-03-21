@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="vasilii, resume">
+    <meta name="description" content="Это сайт- резюме Мельника Василия">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vasilii resume</title>
+</head>
+<body>
+<div class="container">
+    <div class="info">
+        <img src="img/IMG_3014.jpg" alt="Моё фото" class="avatar">
+        <div class="info-text">
+            <h1>Мельник Василий</h1>
+
+            <p>Привет! Я начинающий <strong>верстальщик,</strong> а в будущем, возмоно и <strong><em>frontend разработчик</em></strong>.</p>
+
+            <p>А пока я еще только учус и осваиваю новые технологии для себя</p>
+            
+            <h4>Список социальных сетей:</h4>
+            
+            <a href="https://vk.com/melnik_vasya" target="_blank">vkontakte</a>
+            |
+            <a href="https://t.me/hair_colorist_melnik" target="_blank">telegram</a>
+            |
+            <a href="https://instagram/hair_colorist_melnik" target="_blank">instagram</a>
+        </div>
+    </div>
+
+    <div class="card bg-yellow">
+        <h2>Мои хобби</h2>
+        <ol class="list"> 
+            <li>Путишествия</li>
+            <li>Горные лыжи</li>
+            <li>Большой теннис</li>
+            <li>Программирование</li>
+            <li>Английский язык</li>
+        </ol>
+    </div>
+
+    <div class="card bg-red">
+        <h2>Опыт работы</h2>
+        <table class="table">
+            <thead>
+                <!-- <tr>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr> -->
+                <tbody>
+                    <tr>
+                        <td>Итернет магазин</td>
+                        <td>Директор</td>
+                        <td>2012-2022</td>
+                    </tr>
+                    <tr>
+                        <td>Алкогольная компания</td>
+                        <td>Специалист развития розничной сети</td>
+                        <td>2013-2015</td>
+                    </tr>
+                    <tr>
+                        <td>Сфера красоты</td>
+                        <td>Парикмахер-колорист</td>
+                        <td>2015-сейчас</td>
+                    </tr>
+                </tbody>
+            </thead>
+            
+        </table>
+    </div>
+
+    <form action="/" class="form">
+        <h2>Связаться со мной</h2>
+
+        <div class="form-row">    
+            <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите имя">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" placeholder="Введите email">
+            </div>
+        </div>
+            
+            <div class="form-group">
+                <label for="message">Ваше сообщение:</label>
+                <br>
+                <textarea id="message" placeholder="Введите сообщение" cols="30" rows="5"></textarea>
+            </div>
+            
+        <input type="submit" value="Отправить" class="btn">
+
+    </form>
+</div>
+
+</body>
+</html>
